@@ -1,0 +1,13 @@
+<sf-form [schema]="schema" (onChange)="setValue($event.value)" [model]="formModel"></sf-form>
+
+<!-- <pre>
+    {{schema | json}}
+</pre> -->
+
+<pre>
+    {{formModel | json}}
+</pre>
+
+<pre>
+    {{value | json}}
+</pre>
